@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+.banner-container{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    
+    
+  
+}
+
+.banner-text{
+    margin: 240px 50px 40px 80px;
+    
+
+}
+
+.banner-title{
+   
+}
+
+.banner-description{
+  
+}
+.banner-pic{
+    /* margin: 50px 50px 0px 50px; */
+}
+
+
+.banner-logo{
+    margin: 35px 40px 0px 97px;
+    height: 600px;
+    width: 435px;
+  
+
+}
+
+.banner-btn{
+    
+}
+
+.Featured-Flowers{
+    text-align: center;
+}
+
+.Featured-Flowers-title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.Featured-Flowers-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+
+ /* bonus container stars here */
+
+
+
+
+
+
+
+
+ 
+/* bonus container ends here */
