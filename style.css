@@ -259,5 +259,74 @@ background: rgba(229, 84, 115, 0.05);
 }
 
 
+.latest-deal{
+    background: url("flower Asset/rectangle 9.png");
+    background-attachment:cover;
+    margin: 50px 200px 50px 200px;
+    padding: ;
+    height: 270px;
+    text-align: center;
+    
+    
+}
 
+.latest-deal-title{
+    padding-top: 60px;
+    padding-bottom: 10px;
+   
+}
+.latest-deal-des{
+    margin-bottom: 30px;
+}
+
+
+.input-email{
+    padding: 10px 50px 10px 50px;
+    width: 300px;
+    
+}
+
+.latest-deal-btn{
+    padding: 10px;
+    background-color: none;
+    border-radius: 8px;
+    background: #E55473;
+
+
+}
+
+
+.ftr-des{
+    text-align: center;
+    background: #111010;
+    height: 300px;
+
+}
+.ftr-h2{
+    color: #E55473;
+
+}
+.shop{
+    color: wheat;
+}
+
+.ftr-p{
+    color: rgba(255, 255, 255, 0.90);
+
+}
+h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.copy{
+color: rgba(255, 255, 255, 0.40);
+}
 
