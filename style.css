@@ -4,6 +4,38 @@
 
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgba(6, 241, 241, 0.1);
+    background:linear-gradient(135deg, orange 60%, cyan);
+        
+
+    
+
+}
+
+.nav-name{
+    margin-left:30px;
+}
+
+.shuvo-color{
+    color: blue;
+}
+
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
 .banner-container{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -13,12 +45,16 @@
 }
 
 .banner-text{
-    margin: 240px 50px 40px 80px;
+
+    margin: 240px 50px 40px 240px;
+    
     
 
 }
 
 .banner-title{
+    font-size: 35px;
+    margin-bottom: 10px;
    
 }
 
@@ -39,7 +75,17 @@
 }
 
 .banner-btn{
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
     
+}
+.banner-btn:hover{  
+    color: darkgreen;
+    font-size: 2rem;
+    background-color: powderblue;    
 }
 
 .Featured-Flowers{
@@ -50,6 +96,7 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+    margin-top: 100px;
 
 }
 
@@ -69,8 +116,16 @@ line-height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px;
+    margin:70px 300px 18px 300px;
+    gap: 8px;
     
+ }
+
+ .bonus-p{
+    margin-top: 10px;
+    margin-left: 110px;
+    text-decoration: underline;
+    color: rgba(39, 39, 39, 0.80);
  }
 
 
@@ -84,6 +139,7 @@ line-height: 30px;
     height:428px ;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    padding: 30px 15px 0px 15px;
 
 
 
@@ -91,8 +147,9 @@ line-height: 30px;
  }
 
  .div-2-pic{
-    width:370px ;
-    height:370px ;
+    width:310px ;
+    height:428px ;
+    padding: 30px 15px 0px 15px;
 
     
     border-radius: 300px 300px 0px 0px;
@@ -104,8 +161,9 @@ line-height: 30px;
  }
 
  .div-3-pic{
-    width: 314px;
-    height: 474px;
+    width:310px ;
+    height:428px ;
+    padding: 30px 15px 0px 15px;
     
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -198,18 +256,70 @@ background: rgba(229, 84, 115, 0.05);
     font-size: 30px;
     text-align: center;
 }
+.off{
+    color: #E55473;
+}
 
 .hot-deal-p{
     padding-top: 5px;
     text-align: center;
     padding-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
+
 }
 
 .hot-deal-btn{
     align-items: center;
-    margin-left: 190px;
+    margin-left: 178px;
+    padding: 10px 20px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: 1px solid none;
+
+   
 
 }
+
+.our-team{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 25px;
+    color: gold;
+    
+}
+.our-pic{
+    height: 100px;
+    width: 80px;
+    border-radius: 40px;
+    margin-left: 97px;
+}
+
+.name ,.title{
+    text-align: center;
+}
+
+.our-team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    gap: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.our-back{
+    background-color: darkgoldenrod;
+}
+
+.our-back-p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+
 .hot-deal-pic{
     padding-right: 100px;
 
@@ -219,13 +329,15 @@ background: rgba(229, 84, 115, 0.05);
 .instagram{
     font-size: 35px;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 55px;
     margin-bottom: 10px;
 }
 
 .ins-des{
     text-align: center;
     font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+
 
 }
 
@@ -262,10 +374,12 @@ background: rgba(229, 84, 115, 0.05);
 .latest-deal{
     background: url("flower Asset/rectangle 9.png");
     background-attachment:cover;
-    margin: 50px 200px 50px 200px;
-    padding: ;
     height: 270px;
     text-align: center;
+    margin: auto;
+    width: cover;
+    margin: 20px 200px 20px 200px;
+    
     
     
 }
@@ -300,6 +414,7 @@ background: rgba(229, 84, 115, 0.05);
     text-align: center;
     background: #111010;
     height: 300px;
+    margin-top: 60px;
 
 }
 .ftr-h2{
@@ -315,7 +430,7 @@ background: rgba(229, 84, 115, 0.05);
 
 }
 h2{
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 20px;
 }
 
