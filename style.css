@@ -1,3 +1,4 @@
+    /* shared styles starts here */
 *{
     margin:0px;
     padding: 0px;
@@ -8,6 +9,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+        /* shared styles ends here */
+
+
+/* nav design starts here */
+
 .nav-container{
     display: flex;
     align-items: center;
@@ -16,9 +22,6 @@ body{
     background-color: rgba(6, 241, 241, 0.1);
     background:linear-gradient(135deg, orange 60%, cyan);
         
-
-    
-
 }
 
 .nav-name{
@@ -29,50 +32,35 @@ body{
     color: blue;
 }
 
-
 nav li{
     list-style: none;
     display: inline;
     margin-left: 30px;
 }
 
+    /* nav design starts here */
+
+    /* banner design starts here */
+
 .banner-container{
     display: flex;
     background: rgba(229, 84, 115, 0.10);
-    
-    
-  
-}
+    }
 
 .banner-text{
-
-    margin: 240px 50px 40px 240px;
-    
-    
-
-}
+     margin: 240px 50px 40px 240px;
+    }
 
 .banner-title{
     font-size: 35px;
     margin-bottom: 10px;
-   
-}
-
-.banner-description{
-  
-}
-.banner-pic{
-    /* margin: 50px 50px 0px 50px; */
-}
-
+   }
 
 .banner-logo{
     margin: 35px 40px 0px 97px;
     height: 600px;
     width: 435px;
-  
-
-}
+  }
 
 .banner-btn{
     border-radius: 8px;
@@ -88,6 +76,11 @@ nav li{
     background-color: powderblue;    
 }
 
+        /* banner design ends here */
+
+        /* features flower section design starts here */
+
+
 .Featured-Flowers{
     text-align: center;
 }
@@ -102,13 +95,16 @@ nav li{
 
 .Featured-Flowers-description{
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}       
+    
+/* features flower section design starts here */
 
-font-size: 18px;
 
-font-weight: 400;
-line-height: 30px;
-}
+
 
  /* bonus container stars here */
 
@@ -130,9 +126,7 @@ line-height: 30px;
 
 
 
- .div-1{
-   
- }
+ 
 
  .div-1-pic{
     width:310px ;
@@ -167,7 +161,7 @@ line-height: 30px;
     
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-1x
+
 
 
     
@@ -232,6 +226,9 @@ line-height: 30px;
 /*optional container ends here*/
 
 
+/* hot deals  starts here */
+
+
 
 
 
@@ -244,6 +241,11 @@ line-height: 30px;
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
     
+
+}
+
+.hot-deal-pic{
+    padding-right: 100px;
 
 }
 
@@ -279,6 +281,10 @@ background: rgba(229, 84, 115, 0.05);
    
 
 }
+
+/* hot deals  ends here */
+
+/* our team starts here */
 
 .our-team{
     text-align: center;
@@ -319,11 +325,10 @@ background: rgba(229, 84, 115, 0.05);
     padding-bottom: 25px;
 }
 
+/* our team ends here */
 
-.hot-deal-pic{
-    padding-right: 100px;
 
-}
+
 
 
 .instagram{
@@ -340,6 +345,8 @@ background: rgba(229, 84, 115, 0.05);
 
 
 }
+
+/* pic container starts here */
 
 .pic-container{
     display: flex;
@@ -369,6 +376,10 @@ background: rgba(229, 84, 115, 0.05);
     height: 270px;
   
 }
+
+/* pic container ends here */
+
+/* latest deal starts here */
 
 
 .latest-deal{
@@ -409,6 +420,10 @@ background: rgba(229, 84, 115, 0.05);
 
 }
 
+/* latest deal ends here */
+
+/* footer starts here */
+
 
 .ftr-des{
     text-align: center;
@@ -434,14 +449,9 @@ h2{
     padding-bottom: 20px;
 }
 
-
-
-
-
-
-
-
 .copy{
 color: rgba(255, 255, 255, 0.40);
 }
+
+/* footer ends here */
 
