@@ -65,12 +65,110 @@ line-height: 30px;
 
  /* bonus container stars here */
 
+ .bonus-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    
+ }
 
 
 
+ .div-1{
+   
+ }
+
+ .div-1-pic{
+    width:310px ;
+    height:428px ;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
 
 
 
+    
+ }
 
- 
+ .div-2-pic{
+    width:370px ;
+    height:370px ;
+
+    
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+
+    
+ }
+
+ .div-3-pic{
+    width: 314px;
+    height: 474px;
+    
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+1x
+
+
+    
+ }
+
+
 /* bonus container ends here */
+
+/*optional container starts here*/
+
+.optional-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 140px 240px 140px 240px ;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 40px;
+
+
+}
+
+.optional-container-1{
+    text-align: center;
+}
+.optional-container-2{
+    text-align: center;
+}
+.optional-container-3{
+    text-align: center;
+}
+
+.pic-1{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.pic-2{
+    width: 50px;
+    height: 50px;
+}
+
+.pic-3{
+    width: 50px;
+    height: 50px;
+}
+
+.optional-container-1-des{
+    padding-top: 5px;
+}
+
+.optional-container-2-des{
+    padding-top: 5px;
+}
+
+.optional-container-3-des{
+    padding-top: 5px;
+}
+
+/*optional container ends here*/
