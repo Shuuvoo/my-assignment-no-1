@@ -383,7 +383,7 @@ background: rgba(229, 84, 115, 0.05);
 
 
 .latest-deal{
-    background-image:url('Rectangle 9.png');
+    background-image:url('./image/bg.png');
     background-attachment:cover;
     height: 270px;
     text-align: center;
