@@ -383,8 +383,7 @@ background: rgba(229, 84, 115, 0.05);
 
 
 .latest-deal{
-    /* background: url("./flower Asset/rectangle 9.png"); */
-    background-image: url("./Flower Asset/rectangle 9.png");
+    background: url("./Flower Asset/rectangle 9.png");
     background-attachment:cover;
     height: 270px;
     text-align: center;
